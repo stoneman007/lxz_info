@@ -57,16 +57,6 @@ def str_rescape(str):
     
     return str_new
 
-def charge_select(cond):
-
-    vpr_plate= cond['vpr_plate'] 
-    stime= cond['stime'] 
-    etime= cond['etime'] 
-
-
-
-
-
 
 def indata(element):
     query_access = records.get_id(element.s_access_id)
